@@ -24,8 +24,8 @@ def reff_func(R, V0):
 	
 def findU0(aWanted, r0, ms):
 	pi = np.pi	
-	a = 1.E-03 	* (np.pi/r0)**2 / 2.
-	b = (1.-1.E-03) 	* (np.pi/r0)**2 / 2.
+	a = 1.E-08 	* (np.pi/r0)**2 / 2.
+	b = (1.-1.E-08) 	* (np.pi/r0)**2 / 2.
 	c = (a + b)/2.0
 	a_a = 0.0
 	a_b = 0.0
@@ -47,8 +47,8 @@ def findU0(aWanted, r0, ms):
 	
 def findUR(aWanted, reff_wanted):
 	EPS = 1.E-06
-	r0_min = 0.00001
-	r0_max = 100
+	r0_min = 1.E-08
+	r0_max = 1.E+08
 	r0_mid = (r0_min + r0_max) / 2
 	while(True):
 		ua = findU0(aWanted, r0_min, 1.)
@@ -74,8 +74,8 @@ def findUR(aWanted, reff_wanted):
 	
 	
 
-a12 = -1.4
-reff = 50
+a12 = -1.0555
+reff = 500000
 print("Input params: a12= ", a12, " reff = ", reff)
 print("Calculating ... ")
 V0, R = findUR(a12, reff)
@@ -90,5 +90,4 @@ print("V0 = ", V0, " R= ", R,  "reff = ", reff_func(R, V0), "a12 = ", sclen_func
 	
 	
 	
-
 
