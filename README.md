@@ -1,4 +1,4 @@
-# Square-well-range-R-a12-reff-
+# Universality in Ultradilute Symmetric Liquid Bose-Bose Mixtures
 Accompanying code to:  https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.023618
 
 preprint in: https://arxiv.org/abs/1811.04436
