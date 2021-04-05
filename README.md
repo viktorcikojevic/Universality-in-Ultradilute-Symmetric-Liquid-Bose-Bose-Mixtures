@@ -10,4 +10,4 @@ Contains a python script "find_R_from_a12_reff.py" where one can determine the d
 In a script "quantum_bose-bose_mixture_functional.py", one can also calculate energy per particle for a given density, s-wave scattering length a12<0 and effective range reff>0 of the attractive interactions.  
 In both scripts, density is in units $a_{11}^{-3}$, lengths in units $a_{11}$, and energy in $\hbar^2 / (2 m a_{11}^2)$.  
 
-Notebook "interactive_eos_symmetric_mixture.ipynb" presents an interactive graph, where you can compare the QMC based functional with the MF+LHY in your web browser! You just need to open it in Google Colab and run the first and only cell.
+In the notebook https://colab.research.google.com/github/viktorcikojevic/Square-well-range-R-a12-reff-/blob/master/interactive_eos_symmetric_mixture.ipynb is an interactive graph, where you can compare the QMC based functional with the MF+LHY in your web browser! You just need to open it in Google Colab and run the first and only cell.
